@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'inuicon2';
+    src:    url('fonts/inuicon2.eot?tozsig');
+    src:    url('fonts/inuicon2.eot?tozsig#iefix') format('embedded-opentype'),
+        url('fonts/inuicon2.ttf?tozsig') format('truetype'),
+        url('fonts/inuicon2.woff?tozsig') format('woff'),
+        url('fonts/inuicon2.svg?tozsig#inuicon2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.inu {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'inuicon2' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.inu-calendar:before {
+    content: "\e8f8";
+}
+.inu-camera:before {
+    content: "\e901";
+}
+.inu-express:before {
+    content: "\e902";
+}
+.inu-factory:before {
+    content: "\e903";
+}
+.inu-head-mark:before {
+    content: "\e904";
+}
+.inu-map-pin:before {
+    content: "\e905";
+}
+.inu-railway-map:before {
+    content: "\e906";
+}
+.inu-railyard:before {
+    content: "\e907";
+}
+.inu-station-attendant:before {
+    content: "\e908";
+}
+.inu-station:before {
+    content: "\e909";
+}
+.inu-text:before {
+    content: "\e90a";
+}
+.inu-train-number:before {
+    content: "\e90b";
+}
+.inu-train-ticket:before {
+    content: "\e90c";
+}
+
